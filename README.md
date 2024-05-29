@@ -9,7 +9,7 @@ The goal of this project is to develop a tool for the nonprofit foundation Alpha
  **Featured Variables for this model :** All columns except `EIN`, `NAME`, which have been removed. The `SPECIAL_CONSIDERATIONS` column is also excluded in the attempts for optimization since it contains a few  'YES' values, thus not beneficial for the analysis.
  
 
-### First Attempt:
+## First Attempt:
 - Application Types Cut-off: 500
   
 Application types with fewer than 500 occurrences were grouped into an "Other" category to reduce the number of unique application types.
