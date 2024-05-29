@@ -10,14 +10,13 @@ The goal of this project is to develop a tool for the nonprofit foundation Alpha
 
 **Bin Rare Values**  Combining rare values into a new category called "Other".And use a cutoff of 600 for `APPLICATION_TYPE` and 300 for `CLASSIFICATION`.
 
-**Converting Categorical to Numeric**
-   - Using `pd.get_dummies()` to convert categorical columns into numeric format.
+**Converting Categorical to Numeric** Using `pd.get_dummies()` to convert categorical columns into numeric format.
 
 **Spliting Data** Separating the target variable (`IS_SUCCESSFUL`) from the feature variables.
 
 **Train-Test Split**  Dividing the data into training and testing sets using `train_test_split`.
 
-7. **Scale Data** Using `StandardScaler` to scale the features in the training and testing sets.
+**Scale Data** Using `StandardScaler` to scale the features in the training and testing sets.
 
 
 
