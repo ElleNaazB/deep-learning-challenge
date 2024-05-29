@@ -2,6 +2,25 @@
 
 The goal of this project is to develop a tool for the nonprofit foundation Alphabet Soup that can predict the success of applicants it funds. By leveraging machine learning and neural networks, the project aims to create a binary classifier to assess the likelihood of applicant success based on features from a dataset containing over 34,000 organizations that have previously received funding. This project involves preprocessing the data, compiling, training, and evaluating the model, followed by attempts to optimize the model to achieve a predictive accuracy higher than 75%. 
 
+## Data Preparation Steps
+
+ **Droping Unnecessary Columns** Remove columns that are not beneficial for the analysis.
+ 
+**Counting Unique Values** For columns with more than 10 unique values (specifically, `APPLICATION_TYPE` and `CLASSIFICATION`), count the number of occurrences for each unique value.
+
+**Bin Rare Values**  Combining rare values into a new category called "Other".And use a cutoff of 600 for `APPLICATION_TYPE` and 300 for `CLASSIFICATION`.
+
+**Converting Categorical to Numeric**
+   - Using `pd.get_dummies()` to convert categorical columns into numeric format.
+
+**Spliting Data** Separating the target variable (`IS_SUCCESSFUL`) from the feature variables.
+
+**Train-Test Split**  Dividing the data into training and testing sets using `train_test_split`.
+
+7. **Scale Data** Using `StandardScaler` to scale the features in the training and testing sets.
+
+
+
 ### First Attempt:
 - Application Types Cut-off: 500
   
