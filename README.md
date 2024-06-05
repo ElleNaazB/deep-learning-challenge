@@ -21,6 +21,9 @@ This document provides a detailed justification and reasoning for the different 
 - **Third Layer Units**: 1 | Activation: Sigmoid
 - **Accuracy**: 0.7261
 
+<img src="https://github.com/ElleNaazB/deep-learning-challenge/blob/main/CharityFundingPredictor/1.png" style="width: 300px; height: auto;">
+
+
 ### Reasoning
 - The initial setup was based on a moderate configuration for the neural network. The cut-off values for `application_types` and `classification` were chosen to include a significant portion of the data while filtering out noise.
 - The number of units in the layers was selected to provide sufficient capacity for learning complex patterns in the data.
@@ -37,6 +40,8 @@ This document provides a detailed justification and reasoning for the different 
 - **Third Layer Units**: 1 | Activation: Sigmoid
 - **Accuracy**: 0.7227
 
+  <img src="https://github.com/ElleNaazB/deep-learning-challenge/blob/main/CharityFundingPredictor/2.png" style="width: 300px; height: auto;">
+
 ### Reasoning
 - In this attempt, the cut-off for `application_types` was increased significantly to include more data points, while the `classification` cut-off was reduced to focus on a narrower set of data.
 - The number of units in the layers was reduced to potentially decrease the model complexity and overfitting.
@@ -52,6 +57,8 @@ This document provides a detailed justification and reasoning for the different 
 - **Second Layer Units**: 40 | Activation: Tanh
 - **Third Layer Units**: 1 | Activation: Sigmoid
 - **Accuracy**: 0.7254
+
+  <img src="https://github.com/ElleNaazB/deep-learning-challenge/blob/main/CharityFundingPredictor/3.png" style="width: 300px; height: auto;">
 
 ### Reasoning
 - For the third attempt, the cut-offs were set to different values to test another combination of data inclusion and exclusion.
